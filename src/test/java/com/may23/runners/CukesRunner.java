@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "src/test/java/com/may23/step_definitions",
-        dryRun = true,
+        dryRun = false,
         tags = "",
         publish = false
 )
